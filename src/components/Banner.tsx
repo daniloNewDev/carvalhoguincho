@@ -5,9 +5,11 @@ const Banner = () => {
         src="guincho-carro.png"
         className='w-[100%]'
       />
-      <img src="whats.png"
-        className='fixed z-30 bottom-4 left-8 w-20'
-      />
+      <a href="https://api.whatsapp.com/send?phone=55953540184" target="_blank" rel="noopener noreferrer">
+        <img src="whats.png"
+          className='fixed z-30 bottom-4 left-8 w-20'
+        />
+      </a>
       <div className='w-full absolute top-0 h-[671px] flex items-center justify-center flex-col'>
         <img src="logo-tow-truck.png"
           className='absolute top-14 left-8 md:top-[5vw] md:left-[6vh] w-28 md:w-56'
