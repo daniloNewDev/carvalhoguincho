@@ -19,7 +19,7 @@ body {
 
 /* foto do banner*/
 .bg-white-car {
-  background-image: url('guincho-carro.png');
+  background-image: url('../public/guincho-carro.png');
   background-size: 100vw;
   background-repeat: no-repeat;
 }
@@ -29,19 +29,19 @@ body {
     background-size: 800px;
   }
   .bg-map {
-    background-image: url('bg-map.png');
+    background-image: url('../public/bg-map.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
   .bg-callcenter {
-    background-image: url('callcenter.png');
+    background-image: url('../public/callcenter.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
   .bg-highway {
-    background-image: url('highway.png');
+    background-image: url('../public/highway.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
