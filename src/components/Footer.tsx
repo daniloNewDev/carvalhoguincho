@@ -4,10 +4,10 @@ const Footer = () => {
       <img src="logo-tow-truck.png" className='w-24 lg:w-52' />
       <div>
         <h3 className='squada-one-regular text-3xl text-white text-center'>Contatos</h3>
-        <a href="mailto:carvalhoguincho08@gmail.com">
-          <div className='flex items-center'>
-            <img src="mail-icon.png" className='w-10' />
-            <h4 className='text-white squada-one-regular text-2xl ml-4'>carvalhoguinchos08@gmail.com</h4>
+        <a href="https://www.instagram.com/guinchocarvalho?igsh=MTV4eHo4NDZwZjVrdA==" target="_blank" rel="noopener noreferrer">
+          <div className='flex items-center justify-start my-2'>
+            <img src="insta-icon.png" className='w-10' />
+            <h4 className='text-white squada-one-regular text-2xl ml-4'>@guinchocarvalho</h4>
           </div>
         </a>
         <a href="tel:+5511953540184" target="_blank" rel="noopener noreferrer">
@@ -16,10 +16,10 @@ const Footer = () => {
             <h4 className='text-white squada-one-regular text-2xl ml-4'>(11) 9 5354-0184</h4>
           </div>
         </a>
-        <a href="https://www.instagram.com/guinchocarvalho?igsh=MTV4eHo4NDZwZjVrdA==" target="_blank" rel="noopener noreferrer">
-          <div className='flex items-center justify-start my-2'>
-            <img src="insta-icon.png" className='w-10' />
-            <h4 className='text-white squada-one-regular text-2xl ml-4'>@guinchocarvalho</h4>
+        <a href="mailto:carvalhoguincho08@gmail.com">
+          <div className='flex items-center'>
+            <img src="mail-icon.png" className='w-10' />
+            <h4 className='text-white squada-one-regular text-2xl ml-4'>carvalhoguinchos08@gmail.com</h4>
           </div>
         </a>
       </div>

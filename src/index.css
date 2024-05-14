@@ -21,7 +21,9 @@ body {
 .bg-white-car {
   background-image: url('../public/guincho-carro.png');
   background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 @media screen and (max-width: 660px) {

@@ -1,6 +1,6 @@
 const InfoSection = () => {
   return (
-    <div className="bg-white pt-8 w-full flex flex-col md:flex-row items-center justify-around">
+    <div className="bg-white pt-8 w-full flex flex-col lg:flex-row items-center justify-around">
       <div className="w-full flex flex-col items-center justify-center bg-map">
         <div className="w-80 h-96 px-8 my-8 lg:w-60 lg:h-60 bg-white rounded-xl pt-4 shadow-md shadow-black2 flex flex-col items-center">
           <img src="gps-icon.png" className="w-[97px]" />

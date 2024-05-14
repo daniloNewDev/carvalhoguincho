@@ -1,10 +1,17 @@
 import './App.css'
+import { Outlet } from 'react-router-dom'
+import Header from './components/Header'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <div>
-      HomePage
+      <Header />
+      <Banner />
+      <Outlet />
+      <Footer />
     </div>
   )
 }

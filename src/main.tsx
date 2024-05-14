@@ -4,16 +4,26 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './routes/HomePage.tsx'
 import Contacts from './routes/Contacts.tsx'
+import App from './App.tsx'
+import ErrorPage from './routes/ErrorPage.tsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />
-  },
-  {
-    path: "/contacts",
-    element: <Contacts />
-  },
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />
+      },
+      {
+        path: "/contacts",
+        element: <Contacts />
+      },
+    ]
+  }
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
