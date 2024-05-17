@@ -1,12 +1,12 @@
 const Banner = () => {
   return (
-    <div className="w-[100vw] h-[380px] lg:h-[600px] bg-white-car bg-right-top" >
+    <div className="w-[100vw] h-[350px] lg:h-[600px] bg-white-car bg-right-top" >
       <a href="https://api.whatsapp.com/send?phone=5511953540184" target="_blank" rel="noopener noreferrer">
         <img src="whats.png"
-          className='fixed z-30 bottom-4 left-8 w-20'
+          className='fixed z-30 bottom-4 left-8 w-20 pulse-animation'
         />
       </a>
-      <div className='w-full absolute top-0 h-[380px] md:h-[600px] flex items-center justify-center flex-col'>
+      <div className='w-full absolute top-0 h-[350px] md:h-[600px] flex items-center justify-center flex-col'>
         <img src="logo-tow-truck.png"
           className='absolute top-4 right-8 md:top-[5vw] md:left-[6vh] w-28 md:w-56'
         />
