@@ -25,10 +25,12 @@ const Header = () => {
       <nav className={`w-[60vw] col-span-5 sm:col-span-auto flex flex-col bg-red-600 md:bg-transparent rounded-md md:flex-row items-start justify-start lg:gap-8  mt-8 ml-8 pl-4 py-2 lg:ml-10 ${isOpen ? 'block' : 'hidden'}`}>
         <Link className='w-[95%] p-1 rounded hover:bg-red-500 hover:text-[#d4d4d4] text-start' to="/">ATENDIMENTO RÁPIDO</Link>
         <Link className='w-[95%] p-1 rounded hover:bg-red-500 hover:text-[#d4d4d4] text-start' to="/contacts">CONTATOS</Link>
+        <Link className='w-[95%] p-1 rounded hover:bg-red-500 hover:text-[#d4d4d4] text-start' to="/about">SOBRE A EMPRESA</Link>
       </nav>
       <nav className={`md:w-full col-span-5 sm:col-span-auto hidden sm:flex md:bg-transparent rounded-md md:flex-row items-start justify-start md:ml-[4%]`}>
         <Link className='w-[20%] p-1 rounded hover:bg-[#030303] hover:text-[#d4d4d4] text-center' to="/">ATENDIMENTO RÁPIDO</Link>
         <Link className='w-[20%] p-1 rounded hover:bg-[#030303] hover:text-[#d4d4d4] text-center' to="/contacts">CONTATOS</Link>
+        <Link className='w-[20%] p-1 rounded hover:bg-[#030303] hover:text-[#d4d4d4] text-center' to="/about">SOBRE A EMPRESA</Link>
       </nav>
     </header>
   )

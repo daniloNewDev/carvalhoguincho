@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className='bg-[#1b1919] w-full py-8 lg:py-0 lg:h-64 flex flex-col gap-12 lg:flex-row items-center justify-around'>
-      <img src="logo-tow-truck.png" className='w-24 lg:w-52' />
+    <footer className='bg-[rgb(27,25,25)] w-full py-8 lg:py-0 lg:h-64 flex flex-col gap-12 lg:flex-row items-center justify-around'>
+      <img src="logoinsta.png" className='w-20 lg:w-52' />
       <div>
         <h3 className='squada-one-regular text-3xl text-white text-center'>Contatos</h3>
         <a href="https://www.instagram.com/guinchocarvalho?igsh=MTV4eHo4NDZwZjVrdA==" target="_blank" rel="noopener noreferrer">

@@ -6,6 +6,7 @@ import HomePage from './routes/HomePage.tsx'
 import Contacts from './routes/Contacts.tsx'
 import App from './App.tsx'
 import ErrorPage from './routes/ErrorPage.tsx'
+import About from './routes/About.tsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <Contacts />
+      },
+      {
+        path: "/about",
+        element: <About />
       },
     ]
   }
